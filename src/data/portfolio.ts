@@ -113,6 +113,7 @@ export const projects: Project[] = [
       { value: 'Cloud', label: 'deployed on Streamlit' },
       { value: 'Multi-provider', label: 'anomaly detection' },
     ],
+    github: 'https://github.com/prasashya/Realtime-Telecom-Data-Pipeline-Kafka',
     palette: { from: '#04121f', via: '#0f4c6e', to: '#05080d', accent: '#4cc9ff' },
     motif: 'flow',
   },
@@ -142,7 +143,7 @@ export const projects: Project[] = [
       { value: '5+', label: 'document formats supported' },
       { value: 'Docker', label: 'reproducible deployment' },
     ],
-    github: 'https://github.com/Prasashya',
+    github: 'https://github.com/prasashya/RAG-project',
     palette: { from: '#2a0610', via: '#7a0f24', to: '#0b0710', accent: '#ff3d5a' },
     motif: 'shield',
   },
@@ -171,8 +172,38 @@ export const projects: Project[] = [
       { value: 'OpenCV', label: 'preprocessing pipeline' },
       { value: 'Multi-class', label: 'expression recognition' },
     ],
+    github: 'https://github.com/prasashya/DL-sentiment',
     palette: { from: '#04120d', via: '#0d5a40', to: '#050a08', accent: '#46e3a8' },
     motif: 'tenants',
+  },
+  {
+    id: 'ai-voice-assistant',
+    title: 'AI Voice Assistant',
+    year: '2025',
+    genre: 'AI • NLP • Voice Interfaces',
+    logline: 'An intelligent voice assistant powered by DeepSeek LLM via Ollama, capable of processing voice commands and executing automated system tasks in real time.',
+    stack: ['Python', 'Ollama', 'DeepSeek LLM', 'SpeechRecognition', 'gTTS'],
+    build: [
+      'Developed an intelligent voice assistant using Python capable of processing voice commands and executing automated system tasks in real time.',
+      'Integrated DeepSeek LLM through Ollama to enable natural language understanding and context-aware conversational interactions.',
+      'Implemented speech-to-text and text-to-speech pipelines using SpeechRecognition and gTTS for seamless voice-based human-computer interaction.',
+    ],
+    features: [
+      'Real-time voice command processing',
+      'DeepSeek LLM via Ollama integration',
+      'Context-aware conversational AI',
+      'Speech-to-text with SpeechRecognition',
+      'Text-to-speech output via gTTS',
+    ],
+    metrics: [
+      { value: 'Real-time', label: 'voice command execution' },
+      { value: 'DeepSeek', label: 'LLM via Ollama' },
+      { value: 'STT + TTS', label: 'full voice pipeline' },
+      { value: 'Local', label: 'on-device LLM inference' },
+    ],
+    github: 'https://github.com/prasashya/JarvisAI',
+    palette: { from: '#0d0420', via: '#4a1272', to: '#080410', accent: '#c084fc' },
+    motif: 'shield',
   },
 ];
 
@@ -476,6 +507,14 @@ export const seasons: Season[] = [
         runtime: '2025',
         palette: jade,
       },
+      {
+        code: 'S04 E04',
+        title: 'The Voice Engineer',
+        description: 'AI Voice Assistant — DeepSeek LLM via Ollama, SpeechRecognition + gTTS for real-time voice command execution.',
+        tags: ['DeepSeek', 'Ollama', 'SpeechRecognition', 'gTTS'],
+        runtime: '2025',
+        palette: violet,
+      },
     ],
   },
   {
@@ -506,9 +545,10 @@ export const topPicks: TopPick[] = [
   { label: 'Data original', title: 'Telecom Pipeline', detail: 'Kafka → PostgreSQL → Streamlit Dashboard', palette: jade },
   { label: 'XAI work', title: 'SHAP Ablation Study', detail: 'IMF 5–6 dominant contributors identified', palette: amber },
   { label: 'Deep learning', title: 'Facial Expression CNN', detail: 'TensorFlow/Keras + OpenCV real-time', palette: crimson },
+  { label: 'Voice AI original', title: 'JarvisAI Voice Assistant', detail: 'DeepSeek LLM + Ollama + SpeechRecognition', palette: violet },
   { label: 'ML credential', title: 'DeepLearning.AI × Stanford', detail: 'Supervised + Unsupervised ML (2 certs)', palette: ocean },
   { label: 'Research pipeline', title: '190+ EEG Features', detail: 'Statistical, spectral, nonlinear features', palette: jade },
-  { label: 'Current focus', title: 'MLOps & System Design', detail: 'with Explainable AI', palette: violet },
+  { label: 'Current focus', title: 'MLOps & System Design', detail: 'with Explainable AI', palette: amber },
 ];
 
 /** Slides for the "▶ Play Intro" cinematic sequence. */
@@ -540,8 +580,8 @@ export const introSlides: IntroSlide[] = [
   },
   {
     kicker: 'Projects',
-    title: 'Three Originals',
-    lines: ['Telecom Pipeline — Kafka → PostgreSQL → Streamlit', 'RAG System — BM25 + Semantic + RRF reranking', 'Facial Expression CNN — Real-time webcam inference'],
+    title: 'Four Originals',
+    lines: ['Telecom Pipeline — Kafka → PostgreSQL → Streamlit', 'RAG System — BM25 + Semantic + RRF reranking', 'Facial Expression CNN — Real-time webcam inference', 'AI Voice Assistant — DeepSeek LLM + SpeechRecognition'],
   },
   {
     kicker: 'Certified',
