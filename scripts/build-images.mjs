@@ -5,10 +5,10 @@ import { mkdirSync, existsSync } from 'node:fs';
 const OUT = 'public/assets';
 mkdirSync(OUT, { recursive: true });
 
-const cutoutSource = existsSync('pic_cutout.png')
-  ? 'pic_cutout.png'
-  : existsSync('pic.png')
-    ? 'pic.png'
+const cutoutSource = existsSync('pic.png')
+  ? 'pic.png'
+  : existsSync('pic_cutout.png')
+    ? 'pic_cutout.png'
     : 'pic1.jpg';
 
 const cutout = await sharp(cutoutSource).png().toBuffer();
