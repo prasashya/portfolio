@@ -15,13 +15,12 @@ export const profile = {
   originalLabel: 'AN ANSHUL ORIGINAL',
   role: 'ML Engineer & Full-Stack Developer',
   tagline: ['Machine Learning', 'Full-Stack Dev', 'Data Engineering'],
-  intro:
-    'A B.E. Electronics and Computer Engineering student at Thapar Institute of Engineering and Technology. Amazon ML Summer School 2026 Mentee (top 3,000 of 134,000+ applicants). Builds ML research pipelines, real-time data systems, and RAG-powered full-stack applications.',
+  intro: "I'm an engineer passionate about AI, machine learning, and building intelligent systems that turn ideas into real-world solutions. From autonomous robots to brain-signal analysis, I love exploring technology, solving challenging problems, and creating things that make a difference. Always curious, constantly building, and ready for takeoff. ✈️",
   location: 'Patiala, Punjab',
   email: 'prasashyaanshul@gmail.com',
   phone: '+91 9508266641',
   links: {
-    linkedin: 'https://linkedin.com/in/Anshul',
+    linkedin: 'https://www.linkedin.com/in/anshul-prasashya-974462290/',
     github: 'https://github.com/Prasashya',
   },
   resumePdf: '/assets/Anshul_Prasashya_Resume.pdf',
@@ -231,20 +230,20 @@ export const achievements: Achievement[] = [
     detail: "Achieved Cohen's κ = 0.41 and F1 = 0.56 in neuromarketing buy/no-buy prediction — a ~17% improvement over GFT-based baseline.",
     laurel: '~17% κ improvement',
   },
-  {
-    id: 'eeg-research',
-    title: '190+ Feature EEG Pipeline',
-    org: 'ML Research',
-    detail: 'Developed reproducible EEG time-series preprocessing pipelines utilizing 190+ statistical, spectral, and nonlinear features.',
-    laurel: 'Research Pipeline',
-  },
-  {
-    id: 'shap-ablation',
-    title: 'SHAP Ablation Study',
-    org: 'Explainable AI',
-    detail: 'Conducted IMF-level SHAP ablation, identifying mid-range IMFs (5–6) as dominant contributors to model decisions.',
-    laurel: 'Explainable AI',
-  },
+{
+  id: 'jee-mains',
+  title: '95+ Percentile in JEE Mains',
+  org: 'Academic Achievement',
+  detail: 'Achieved a 95+ percentile in JEE Main, demonstrating strong analytical, mathematical, and problem-solving skills.',
+  laurel: 'Academic Excellence',
+},
+{
+  id: 'jee-advanced',
+  title: 'JEE Advanced Qualified',
+  org: 'Academic Achievement',
+  detail: 'Qualified JEE Advanced, demonstrating strong analytical thinking, mathematical aptitude, and problem-solving skills.',
+  laurel: 'Academic Excellence',
+},
 ];
 
 export type Certification = { issuer: string; name: string; link: string };
@@ -253,17 +252,17 @@ export const certifications: Certification[] = [
   {
     issuer: 'DeepLearning.AI & Stanford',
     name: 'Supervised Machine Learning: Regression and Classification',
-    link: 'https://coursera.org',
+    link: 'https://www.coursera.org/account/accomplishments/verify/6TCPXFD6HW5N',
   },
   {
     issuer: 'DeepLearning.AI & Stanford',
     name: 'Unsupervised Learning, Recommenders, Reinforcement Learning',
-    link: 'https://coursera.org',
+    link: 'https://www.coursera.org/account/accomplishments/verify/KJ2D5U7R818E',
   },
   {
     issuer: 'NVIDIA',
     name: 'Getting Started with AI on Jetson Nano',
-    link: 'https://courses.nvidia.com',
+    link: 'https://learn.nvidia.com/certificates?id=fgZEFlHuQZGaigt8fXQzDw',
   },
 ];
 
